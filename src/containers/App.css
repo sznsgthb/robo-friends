@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'SEGA LOGO FONT';
+	font-style: normal;
+	font-weight: normal;
+	src: local('SEGA LOGO FONT'), url(../assets/SEGA.TTF), format('truetype');
+}
+
+h1 {
+	font-family: 'SEGA LOGO FONT';
+	font-weight: 200;
+	color: #0ccac4;
+    margin: 1.5rem;
+}
+
+
+.app-title {
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+.app-container {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    background-color: #adf9da;
+    border-radius: 0.5rem;
+    padding: 0.9rem;
+    margin: 0.5rem;
+    display: inline-block;
+    border: 2px solid transparent;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+.searchbox {
+    padding: 0.5rem;
+}
+
+.searchbox-input {
+    padding: 1rem 1rem;
+    font-size: 1.1rem;  
+    border: 1px solid rgb(0, 128, 79);
+    background-color: #cdedfd;
+}
+
+
+.scroll-container {
+    height: 720px;
+    overflow-y: scroll;
+    border: 5px solid black;
+    padding: 0.5rem;
+}
