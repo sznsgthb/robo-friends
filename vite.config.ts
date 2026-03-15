@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
     plugins: [react()],
-    base: '/robo-friends/'  // <- voeg hier je repo naam toe
+    base: '/robo-friends/',
 })
